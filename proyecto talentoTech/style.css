@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+    
+}
+body {
+    width: 100%;
+    height: 100vh; 
+    background: linear-gradient(to right, #7ec9f5 0%,#3957ed 100%);
+
+}
+nav {
+    
+    margin-right: 0.2rem;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+background: linear-gradient(to right, #7ec9f5 0%,#3957ed 100%);
+}
+.nav-lista{
+    gap:1.5rem;
+    font-size: 2.7vw;
+    display: inline-flex;
+    list-style-type:none ;
+    
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.nav-lista-alfa{ 
+
+  text-decoration: none;
+}
+.nav-lista-alfa-enlace{
+  color: #fff;
+  text-decoration: none;
+}
+  
+    .grid-container{
+margin-top: 40px;
+      display: flex;
+        justify-content: space-between;
+      
+      }
+ 
+        
+        .grid-container > div { 
+          font-size: 4rem;
+          
+          display: inline-flex;
+          text-align: center;
+          }
+          .grid-item > h1{
+            padding-top: 50px;
+            padding-left: 100px;
+            color: #003661;
+            font-family: "Poppins", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+          }
+          .grid-container > div >video{
+margin-right: 40px;
+            width: 33vw;
+            border-radius: 20px;
+          }
+         
+          .card-padre{
+          
+            display: flex;
+            width: 90%;
+            max-width: 1200px;
+            margin: 70px auto;
+          }
+          .card{
+          
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            border-radius:15px;
+            margin-bottom: 10px;
+            flex: 30%;
+            margin: 10px;
+          
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+          }
+        
+         .card .boton{
+                 background-color:transparent;
+          padding: 10px 15px;
+          text-align: justify;
+       
+         }
+         .content >img{
+          width: 100%;
+          display: block;
+          height: 800px;
+          border-radius: 8px 8px 0 0;
+         }
+         .card .boton >h1{
+          color:#003661;
+          text-align: center;
+          align-items: center;
+          font-family: "Poppins", sans-serif;
+          font-weight: 100;
+          font-style: normal;
+         }
+         .btn {
+         
+          background-color: #7cd7cf;
+          color:#003661;
+          display: block;
+          padding: 10px;
+          text-align: center;
+          text-decoration: none;
+          margin-top: 10px;
+          
+          border-radius: 8px;
+
+         }
+.container{
+  display: grid;
+
+}
+.element-1{
+  color:#003661;
+  font-size: 4rem;
+  padding-left: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+ .element-content{
+  font-size: 2rem;
+  padding-left: 0.5rem;
+ }
+
+.element-2 {
+  grid-column: 1/7;
+  color: #181616;
+
+}
+.element-3{
+
+grid-column: 1/7;
+}
+.element-4{
+
+grid-column: 1/7;
+}
+.element-5{
+
+grid-column: 1/7;
+}
+.element-6{
+
+grid-column: 1/7;
+}
+
+
+
+.container > div > input{
+  margin-left: 20px;
+appearance: none;
+content: "\2713";
+  border: 2px solid black;
+border-radius: 5px;
+  height: 1.5rem;
+  width:1.5rem ;
+}
+footer{
+  border-top: 2px solid #003661;
+  
+}
+.cont-foot{
+  
+  display: flex;
+  justify-content: space-around;
+align-items: center;
+
+}
+.enlace-foot{
+  text-decoration: none;
+}
+.cont-poli>a{
+  text-decoration: none;
+  
+  color: #003661;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cont-contact > i{
+  font-size: 2rem;
+  
+}
+.cont-contact > h5{
+  font-size: 1.5rem;
+  color: #003661;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cont-icon-redes > i{
+font-size: 2rem;
+}
+.cont-icon-redes > h5{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #003661;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width:450px){
+  nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+background-color: black;
+}
+.nav-lista{
+    gap: 0.5rem;
+    font-size: 7vw;
+    display: flex;
+    list-style-type:none ;
+    
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.grid-container{
+text-align: center;
+align-items: center;
+justify-content: center;
+display: block;
+box-sizing: border-box;
+}
+.grid-item{
+  align-items: center;
+text-align: center;
+}
+.grid-item>h1{
+  
+  box-sizing: content-box;
+  font-size: 3rem;
+  text-align: center;
+  padding-top:0;
+  padding-right: 220px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.grid-container>div>video{
+  margin-left: 40px;
+
+  width: 100%;
+  border-radius: 20px;
+}
+.card-padre{
+  display: inline-block;
+  width: 100%;
+
+  margin: 70px auto;
+}
+.content >img{
+  width: 100%;
+  display: block;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+ }
+}
+
+@media (max-width:1100px){
+  nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nav-lista{
+    gap: 1rem;
+    font-size: 5vw;
+    display: flex;
+    list-style-type:none ;
+    
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.grid-container{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  box-sizing: border-box;
+  }
+ 
+  .grid-item>h1{
+padding-top: 0px;
+    align-items: center;
+   padding-right: 20px;    
+    box-sizing: content-box;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .grid-container>div>video{
+    
+  
+    width: 70%;
+margin: auto;
+  }
+
+  .card-padre{
+    display: block;
+    width: 60%;
+
+    margin: 70px auto;
+  }
+  .content >img{
+    width: 100%;
+    display: block;
+    height: 250px;
+    border-radius: 8px 8px 0 0;
+   }
+
+
+
+}
+
+         @media(min-width:1100px){
+          .card-padre{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          gap:50px 
+        }
+        .card{
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+        }
+        .content{
+          flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+        
+          height: 250px;
+        }
+        .boton{
+          flex-grow: 1;
+        }
+        }
+      
